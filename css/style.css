@@ -1048,3 +1048,252 @@ form button:hover {
     gap: 15px;
   }
 }
+
+
+section {
+  padding-top: 80px; 
+}
+
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  14% {
+    transform: scale(1.15);
+  }
+  28% {
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.15);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #111;
+    margin-top: 10px;
+    animation: fadeIn 0.3s ease-in-out forwards;
+    text-align: center;
+  }
+
+  .navbar.show {
+    display: flex;
+  }
+
+  .login-btn {
+    margin-top: 0;
+  }
+
+  .logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #00ffff;
+    margin: 0 10px;
+    display: block;
+  }
+
+  header .container {
+    gap: 10px;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (min-width: 769px) {
+  .logo1 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .card2 {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .card2a {
+    width: 100%;
+    padding: 0;
+    align-items: center;
+  }
+
+  .card2a h1,
+  .card2a .p {
+    text-align: center;
+  }
+
+  .card2b {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .card2b img {
+    max-height: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .card4 {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .card4a, .card4b {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .section-project {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .section-project h1, 
+  .section-project p, 
+  .section-project a {
+    margin-left: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .card6 {
+    flex-direction: column;
+  }
+
+  .card6a, .card6b {
+    width: 100%;
+  }
+
+  .card6b {
+    min-height: 220px;
+  }
+}
+
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media screen and (min-width: 768px) {
+  .card7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card7 p {
+    width: 30%;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .partners-wrapper {
+    width: 65%;
+  }
+}
+
+@media (min-width: 600px) {
+  .resources-card {
+    padding: 50px 40px;
+  }
+
+  .resources-card h1 {
+    font-size: 36px;
+  }
+
+  .resources-card .description {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #resources {
+    padding: 100px 0;
+  }
+
+  .resources-card {
+    border-radius: 30px;
+    padding: 60px 60px;
+  }
+
+  .resources-card h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card9 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card9 div {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card10 {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .card11b {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .card11b1 {
+    width: 45%;
+  }
+
+  .faq-container {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .innovex-contact {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .innovex-contact {
+    flex-direction: row;
+  }
+}
+
+
