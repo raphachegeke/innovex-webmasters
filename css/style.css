@@ -577,13 +577,11 @@ header {
 
 .resources-card {
   width: 90%;
-  height: 80vh;
-  background-color: white;
+  background-color: transparent;
   border-radius: 20px;
-  padding: 40px 20px;
   text-align: center;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease-in-out;
+  margin-top: -100px;
 }
 
 .resources-card .tagline {
@@ -606,6 +604,10 @@ header {
   font-size: 16px;
   color: #444;
   line-height: 1.6;
+}
+
+#resources-list{
+  margin-top: -250px !important;
 }
 
 .card9 {
@@ -661,17 +663,20 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: -60px;
 }
 
 .card10 {
   text-align: left;
   width: 90%;
-  max-width: 900px;
+  height: 400px;
   background-color: white;
   padding: 30px;
   border-radius: 20px;
-  margin-top: 40px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card10 a {
@@ -682,6 +687,7 @@ header {
   margin-top: 20px;
   padding: 10px 25px;
   border-radius: 20px;
+  width: fit-content;
 }
 
 .card10 .section-label {
@@ -733,6 +739,12 @@ header {
   height: auto;
   border-radius: 10px;
   object-fit: cover;
+}
+
+#faq{
+  margin-top: -50px;
+  justify-content: center;
+  display: flex;
 }
 
 .faq-container {
