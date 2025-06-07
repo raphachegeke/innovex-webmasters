@@ -1,78 +1,74 @@
-# Innovex – Custom Website Builder
+# 🌐 Innovex Makers
 
-Live Site: [https://innovex-coders.vercel.app](https://innovex-coders.vercel.app)
-
-Innovex is a modern, responsive website that allows users to request custom-built websites for their business, brand, or personal needs. It features smooth navigation, client testimonials, service descriptions, and a user-friendly contact system.
+**Innovex Makers** is a responsive, modern website designed to showcase web design and development services. Built with HTML, CSS, and JavaScript, it highlights your brand, services, projects, and client testimonials — perfect for freelancers, dev teams, or startups.
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- Responsive sticky navigation bar with animated hamburger menu
-- Hero section showcasing Innovex’s purpose
-- Project-based service overview
-- Testimonials carousel with arrows and dots
-- Auto-scroll animation with AOS (Animate On Scroll)
-- Partner brands slider
-- Contact form powered by Formspree
-- Community and FAQ sections
-- Clean, consistent UI and mobile-first design
+[🔗 View Site](https://innovex-webmasters.vercel.app/)  
+
 
 ---
 
-## 🛠 Technologies Used
+## 💡 Features
+
+- Mobile-first responsive design  
+- Smooth animations (AOS.js)  
+- Client testimonials section with slider  
+- Project showcase section  
+- Formspree-powered contact form  
+- Partner and resources sections  
+- Clean, organized codebase
+
+---
+
+## 🛠️ Built With
 
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla)
-- Font Awesome (icon set)
-- AOS (scroll animation library)
-- Formspree (for contact form submission)
-- Vercel (deployment)
+- JavaScript  
+- [AOS.js](https://michalsnik.github.io/aos/)  
+- [Font Awesome](https://fontawesome.com/)  
+- [Formspree](https://formspree.io/)
 
 ---
 
-## 🧰 Setup Instructions
+## 📦 Installation
 
-1. Clone the repository or download the source files.
-2. Open `index.html` in your browser to preview the site locally.
-3. Customize text, images, and styles in the `/css` and `/assets` folders.
-4. To enable the contact form, replace the Formspree action URL with your own.
+```bash
+# 1. Clone the repo
+git clone https://github.com/raphachegeke/innovex-webmasters.git
 
----
+# 2. Navigate into the folder
+cd innovex-makers
 
-## 🧪 Deployment
-
-This project is deployed live using Vercel.
-
-View it here:  
-🔗 [https://innovex-coders.vercel.app](https://innovex-coders.vercel.app)
-
-You can also deploy it via:
-- GitHub Pages
-- Netlify
-- Vercel
-- Firebase Hosting
+# 3. Open index.html in your browser
+```
 
 ---
 
-## 🙌 Credits
+## ✏️ Customization
 
-- Font Awesome – Icon set  
-- AOS by Michal Snik – Scroll animations  
-- Vercel – Hosting  
-- Illustrations – Open source & team assets
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.  
-Feel free to use, modify, and share it with attribution.
+- Update content in `index.html`  
+- Change images in `/assets/`  
+- Tweak styles in `/css/`  
+- Add your Formspree link to the form action
 
 ---
 
-## ✉️ Contact
+## 🧠 License
 
-Have a project in mind?  
-Visit the [Contact Section](https://innovex-coders.vercel.app/#contact-us) or email us at: support@innovex.com
+This project is licensed under the **MIT License**.  
+Use it, remix it, build your empire.
+
+---
+
+## 📞 Contact
+
+**Innovex Digital Solutions**  
+📧 innovexdigitalsolutions.com  
+📱 +254 748 397 839  
+📍 Nairobi, Kenya
+
+> “Custom websites, tailored to your business goals.”
